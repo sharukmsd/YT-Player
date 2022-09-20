@@ -151,7 +151,6 @@ class VCHome: UIViewController {
         }
     }
     @IBAction func nextTapped(_ sender: UIButton) {
-        GIDSignIn.sharedInstance()?.signOut()
     }
     @IBAction func nameOrImgTapped(_ sender: UIButton) {
         print("toolbar tapped")
