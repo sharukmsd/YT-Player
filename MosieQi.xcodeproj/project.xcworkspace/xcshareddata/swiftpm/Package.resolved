@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "lnpopupcontroller",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/LeoNatan/LNPopupController",
+      "state" : {
+        "branch" : "master",
+        "revision" : "9f44dd1ce6d9946210deea4d19b305df0d39503e"
+      }
+    }
+  ],
+  "version" : 2
+}
