@@ -49,6 +49,7 @@ class VCPlayer: UIViewController {
         Utilities.shared.setImageFromUrl(imgView: imgBGPlayer, url: items[selectedIndex].snippet.thumbnails.high?.url ?? "")
         Utilities.shared.setImageFromUrl(imgView: imageViewForSmallImg, url: items[selectedIndex].snippet.thumbnails.high?.url ?? "")
         lblTitle.text = items[selectedIndex].snippet.title
+        lblChannelName.text = items[selectedIndex].snippet.videoOwnerChannelTitle
     }
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
